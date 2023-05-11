@@ -1,0 +1,35 @@
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.box{
+    width: 350px;
+}
+
+.box2 {
+    display: flex;
+    width: 500px;
+    margin-top: 40px;
+    
+    flex-direction: column;
+    list-style: none;
+}
+.box2 li{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5px;
+    background-color: aquamarine;
+}
+.box-edit {
+    display: flex;
+}
+
+.hidden-box-edit {
+    display: flex;
+}
+.hiddens{
+    display: none;
+}
+
